@@ -1,6 +1,4 @@
 # Developing streamlit app for the SportRadar mini project
-from operator import ne
-from turtle import color
 from matplotlib.backend_bases import cursors
 from narwhals import col
 import streamlit as st
@@ -11,7 +9,6 @@ import base64
 import time
 import binascii
 import pandas as pd
-from sqlalchemy import create_engine, values
 
 if "logged_in" not in st.session_state:
     st.session_state["logged_in"] = False
