@@ -1,5 +1,4 @@
 # Developing streamlit app for the SportRadar mini project
-from matplotlib.backend_bases import cursors
 import streamlit as st
 import psycopg2
 from psycopg2.errors import UniqueViolation
